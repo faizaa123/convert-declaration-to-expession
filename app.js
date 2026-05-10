@@ -45,3 +45,22 @@ const endsWithZ = (text) => text.endsWith("z");
 
  let trimmer =  (text) => text.trim()
  console.log(trimmer("                  faiza                               "))
+
+let double = num => num*2
+console.log(double(2))
+
+
+let upperCase = (text) => text.toUpperCase()
+console.log(upperCase("faiza ali"))
+
+
+
+
+let firstCharacter = (text) => text.charAt(0)
+console.log( firstCharacter("faiza ali"))
+
+
+let fruits = ["apple" , "banna", "cherry", "kiwi"]
+
+let lastElement = (arr) => arr[arr.length -1]
+    console.log(lastElement(fruits))
