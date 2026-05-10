@@ -11,9 +11,9 @@ let greet = function(name){
 let square = function(x){
     return x * x;
 }
-//  console.log(square(4));
+ console.log(square(4));
 
-  let add = (a,b) => a + b;
+  let addd = (a,b) => a + b;
 
   console.log(add(1,5));
 
@@ -41,3 +41,7 @@ console.log(startsWithA('banana'))
 
 const endsWithZ = (text) => text.endsWith("z");
  console.log(endsWithZ("buz"))
+
+
+ let trimmer =  (text) => text.trim()
+ console.log(trimmer("                  faiza                               "))
